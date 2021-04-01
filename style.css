@@ -59,3 +59,11 @@ span i:nth-child(1){
 span i:nth-child(2){
     color : rgb(0, 183, 255);
 }
+
+@media screen  and (max-width:760px) {
+	.container .box span {
+		font-size: 1em;
+		line-height: 0.79em;
+		transform: translate(-50%,-50%) rotateX(calc(var(--i)*22.5deg)) translateZ(40px);
+	}
+}
